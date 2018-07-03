@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Rectangle Area</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			class Rectangle {
+			constructor(length, breadth) {
+			this.length = length;
+			this.breadth = breadth;
+			}
+			get area() {
+			    return this.calculateArea();
+			  }
+			calculateArea(){return this.length * this.breadth;}
+			}
+
+			let test = new Rectangle(10,10);
+			console.log(test.area);
+		</script>
+	</body>
+</html>
